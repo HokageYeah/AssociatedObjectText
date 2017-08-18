@@ -15,6 +15,8 @@
 		F87571FA1E8F4CB100FE891E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87571F81E8F4CB100FE891E /* LaunchScreen.storyboard */; };
 		F87572051E8F4CB200FE891E /* AssociatedObjectTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87572041E8F4CB200FE891E /* AssociatedObjectTextTests.m */; };
 		F87572101E8F4CB200FE891E /* AssociatedObjectTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F875720F1E8F4CB200FE891E /* AssociatedObjectTextUITests.m */; };
+		F875721F1E8F98B800FE891E /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = F875721E1E8F98B800FE891E /* UIColor+Util.m */; };
+		F87572221E8FA11200FE891E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87572211E8FA11200FE891E /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F875720B1E8F4CB200FE891E /* AssociatedObjectTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssociatedObjectTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F875720F1E8F4CB200FE891E /* AssociatedObjectTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedObjectTextUITests.m; sourceTree = "<group>"; };
 		F87572111E8F4CB200FE891E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F875721D1E8F98B800FE891E /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		F875721E1E8F98B800FE891E /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		F87572201E8FA11200FE891E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F87572211E8FA11200FE891E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F87571EE1E8F4CB100FE891E /* AppDelegate.m */,
 				F87571F01E8F4CB100FE891E /* ViewController.h */,
 				F87571F11E8F4CB100FE891E /* ViewController.m */,
+				F87572201E8FA11200FE891E /* SecondViewController.h */,
+				F87572211E8FA11200FE891E /* SecondViewController.m */,
+				F875721D1E8F98B800FE891E /* UIColor+Util.h */,
+				F875721E1E8F98B800FE891E /* UIColor+Util.m */,
 				F87571F31E8F4CB100FE891E /* Main.storyboard */,
 				F87571F61E8F4CB100FE891E /* Assets.xcassets */,
 				F87571F81E8F4CB100FE891E /* LaunchScreen.storyboard */,
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87572221E8FA11200FE891E /* SecondViewController.m in Sources */,
 				F87571F21E8F4CB100FE891E /* ViewController.m in Sources */,
 				F87571EF1E8F4CB100FE891E /* AppDelegate.m in Sources */,
 				F87571EC1E8F4CB100FE891E /* main.m in Sources */,
+				F875721F1E8F98B800FE891E /* UIColor+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
